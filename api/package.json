@@ -9,8 +9,7 @@
     "build": "npm i && npm run build",
     "server": "nodemon server.js",
     "client": "npm start --prefix ../client",
-    "dev": "concurrently \"npm run start\" \"npm run client\"",
-    "vercel-build":"echo hello"
+    "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
   "author": "Hrithik Raj",
